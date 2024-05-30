@@ -1,0 +1,21 @@
+.box1{
+    background: rgb(250, 248, 248);
+    width: min-content;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+    font-size: 20px;
+}
+a {
+    display: inline-block;
+    margin: 10px;
+}
+html{
+    text-align: center;
+}
