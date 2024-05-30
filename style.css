@@ -9,8 +9,8 @@
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    color: aqua;
-    font-size: 20px;
+    color: rgb(105, 255, 255);
+    font-size: 25px;
 }
 a {
     display: inline-block;
