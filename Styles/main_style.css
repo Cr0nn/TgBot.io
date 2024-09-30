@@ -1,0 +1,303 @@
+.menu li{
+    list-style: none;
+    display: inline-block;
+    white-space: nowrap;  
+}
+.menu div{
+    width: 1900px;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+
+}
+.menu img{
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-left: 180px;
+    padding:0;
+}
+.menu p{
+    margin-right: 30px;
+    height: min-content;
+    color: #186C91;
+    position: relative;
+    top: 7px;
+}
+.menu{
+    margin: 0 auto;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.menu button{
+    background: linear-gradient(#0393d1,#41bef3);
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px; 
+    outline: none;
+    color:aliceblue;
+    display: block;
+    margin-left: 10px;
+}
+.main{
+    background: linear-gradient(to bottom right, #662483 250px, #206AC0 600px,#009FE3 );
+    width: 1650px;
+    height: 480px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.main p{
+    color: #fff
+}
+
+
+.txt_brd{
+    background-color: #300A41;
+    border-radius: 4px;
+    width: max-content;
+    height: auto;
+    box-sizing: border-box;
+    padding: 14px;
+    font-size: 20px;
+    margin-top: 65px;
+}
+
+.carusel li{
+    display: inline;
+    margin-left: 40px;
+}
+.carusel li img{
+    position: relative;
+}
+.carusel li img[alt="mid"]{
+
+    animation: ToRight 12s linear infinite;
+}
+.carusel li img[alt="nd"]{
+
+    animation: ToLeft 12s linear infinite;
+}
+.carusel li img[alt="beg"]{
+
+    animation: ToMid 12s linear infinite;
+}
+.head{
+    text-align: center;
+}
+.tools{
+    margin-top: 50px;
+}
+.tools div{
+    width: 1200px;
+    max-height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.tools li {
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+    width: 380px;
+    height: 110px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+.tools li p {
+    font-size: 22px;
+    position: relative;
+    display: inline-flex;
+    top: -7px;
+}
+.tools li img{
+    padding: 25px 15px 0 25px;
+}
+.clients{
+    margin-top: 100px;
+}
+.clients div{
+    width: 1500px;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clients li {
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+.clients li p{
+    display:flexbox;
+    position: relative;
+    margin-right: 100px;
+    font-size: 33px;
+}
+.listBox li{
+    border-radius: 10px;
+    border: solid 0.5px #009fe377;
+    position: relative;
+    width: 288px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);  
+}
+.listBox div{
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    width: 960px;
+    height: 340px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2); 
+}
+.listBox div li p{
+    font-size: 23px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    color: #009FE3;
+}
+.listBox li img{
+    padding: 25px 15px 0 25px;
+}
+.description{
+    margin-top: 100px;
+}
+.description li{
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+.description div{
+    height: max-content;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.description li p{    
+    position: relative;
+}
+.description li img{
+    margin-left:250px;
+    position: relative; 
+}
+.description li div.place{
+    width: 625px;
+    height: 675px;
+    background-color: #F2FAFF;
+    border-radius: 5px;
+}
+.description li button{
+    background-color: #fff;
+    width: max-content;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    left: 240px;
+    font-size: 20px;
+    top:-160px;
+    border: solid 1px #009FE3;
+    border-radius: 5px; 
+    outline: none;
+    color: #009FE3;
+    display: block;
+    margin-left: 10px;
+}
+.sale{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #F2FAFF;
+    border-radius: 5px;
+    width: 1450px;
+    height: 350px;
+}
+.sale button{
+    background-color: #009FE3;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 45px;
+    border: 0;
+    border-radius: 8px; 
+    outline: none;
+    color:aliceblue;
+    display: block;
+    margin-left: 10px;
+}
+.info{
+    margin-top: 150px;
+}
+.info li{
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+.info p{
+    position: relative;
+}
+.info div{
+    height: max-content;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.name{
+    font-size: 20px;
+    top: -100px;
+}
+p.ref{
+    font-size: 15px;
+}
+.last li {
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+.last li p{
+    position: relative;
+}
+.last div {
+    height: min-content;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes ToRight {
+    
+    8.3% {transform: translate(345px,-83px)}
+    33.2% {transform: translate(345px,-83px)}
+    41.5% {transform: translate(-345px,-83px)}
+    66.4% {transform: translate(-345px, -83px)}
+    74.7% {transform: translate(0px,0px);}
+    100% {transform: translate(0px,0px)}
+}
+@keyframes ToLeft {
+    
+    8.3% {transform: translate(-690px, 0px)}
+    33.2% {transform: translate(-690px, 0px)}
+    41.5% {transform: translate(-345px,83px)}
+    66.4% {transform: translate(-345px, 83px)}
+    74.7% {transform: translate(0px,0px);}
+    100% {transform: translate(0px,0px)}
+}
+@keyframes ToMid {
+    8.3% {transform: translate(345px,83px);}
+    33.2% {transform: translate(345px,83px);}
+    41.5% {transform: translate(690px,0px)}
+    66.4% {transform: translate(690px,0px)}
+    74.7% {transform: translate(0px, 0px);}
+    100% {transform: translate(0px, 0px);}
+}
